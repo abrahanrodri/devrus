@@ -1,0 +1,49 @@
+
+.box{
+    padding-left: 10%;
+    padding-right: 10%;
+    padding-top: 10%;
+    padding-bottom: 10%;
+    margin-left: 5%;
+    margin-right: 5%;
+    margin-top: 10%;
+    margin-bottom: 15%;
+    background: #ccc;
+    font-size: 20px;
+    position: relative; 
+    /* font-family: 'Fjalla One', sans-serif; */
+    /* font-family: 'Arvo', serif; */
+    /* font-family: 'Dancing Script', cursive; */
+    /* font-family: 'Shadows Into Light', cursive; */
+    /* font-family: 'Acme', sans-serif; */
+    /*font-family: 'Amatic SC', cursive;
+    font-family: 'Permanent Marker', cursive;
+    font-family: 'Courgette', cursive;
+    font-family: 'Pathway Gothic One', sans-serif;
+    font-family: 'Concert One', cursive; */
+    text-align: center;
+}
+.collapsible {
+    background-color: white;
+    color: black;
+    cursor: pointer;
+    padding: 18px;
+    width: 100%;
+    border: none;
+    text-align: center;
+    outline: none;
+    font-size: 60px;
+    font-family: 'Acme', sans-serif;
+  }
+  
+  .active, .collapsible:hover {
+    background-color: #ccc;
+  }
+  
+  .content {
+    padding: 0 18px;
+    max-height: 0;
+    overflow: hidden;
+    transition: max-height 0.2s ease-out;
+    background-color: #f1f1f1;
+  }
