@@ -1,0 +1,148 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <meta http-equiv="X-UA-Compatible" content="ie=edge">
+        <!--Tentative names-->
+        <title>networking </title>
+        <!--Google Icons & Fonts-->
+        <link rel="stylesheet" href="https://fonts.googleapis.com/icon?family=Material+Icons">
+        <link href="https://fonts.googleapis.com/css?family=Acme|Amatic+SC|Arvo|Concert+One|Courgette|Dancing+Script|Fjalla+One|Pathway+Gothic+One|
+                    Permanent+Marker|Shadows+Into+Light&display=swap" rel="stylesheet">
+        <!-- Compiled and minified CSS -->
+        <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css"
+            integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0/css/materialize.min.css">
+        <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+        <link rel="stylesheet" href="assets/css/style.css" media="screen" title="no title">
+        <script src="https://code.jquery.com/jquery.js"></script>
+        <!-- Compiled and minified JavaScript -->
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0/js/materialize.min.js"></script>
+    
+    
+    </head>
+<body>
+
+    <form action="/api/newevent" method="POST" id="FormA"></form>
+    <form action="/api/delete" method="POST" id="FormB"></form>
+
+    <ul id="dropdown1" class="dropdown-content">
+        <li href="home.html">networking</a></li>
+        <li class="divider"></li>
+        <li><a href="freelancerview.html">event</a></li>
+        <button type="button">Click Me!</button>
+        <li class="divider"></li>
+        <li><a href="eventview.html">Networking</a></li>
+    </ul>
+    <nav>
+        <div class="nav-wrapper">
+            <a class="brand-logo">DevR'Us | Networking</a>
+            <ul class="right hide-on-med-and-down">
+                <li><a class="dropdown-trigger" href="#!" data-target="dropdown1"><i
+                            class="material-icons">dehaze</i></a></li>
+            </ul>
+        </div>
+    </nav>
+
+    <h1> newetwork Event</h1>
+
+  <div class="container">
+
+    <form action="/api/notes" method="POST" id="Form1"></form>
+    <form action="/api/delete" method="POST" id="Form2"></form>
+
+    <div id="user-input">
+      <p>Title</p>
+      <input type="text" id="title" name="title" form="Form1"/>
+      <br>
+      <p>Event</p>
+      <textarea id="note" name="body" form="Form1"></textarea>
+      <p>Location</p>
+      <input type="text" id="address" name="address" form="Form1"/>
+      <br>
+      <div id="buttons">
+        <div id="action-button">
+          <button id="make-new" type="submit" form="Form1">Submit</button>
+        </div>
+        <button id="clear-all" type="submit" form="Form2">Delete All past even</button>
+    <!-- <div>
+        <div class="row">
+            <div class="col s6 right-align"></div>
+            <div class="col s6 right-align">
+                <a href="freelancerview.html" class="btn">Freelancer</a>
+            </div>
+        </div>
+
+    </div> -->
+
+    <!-- <div class="container">
+
+        <div class="row">
+
+            <div class="col s6">
+                <div class="eventContent">
+                    <div>
+                        <a href="/freelancerview" class="btn link">Freelancers For Hire</a>
+                    </div>
+                    <div>
+                        <a href="/postFreelancer" class="btn link">Add Resume</a>
+                    </div>
+                </div>
+            </div>
+            <div class="col s6">
+                <div class="eventContent">
+                    <div>
+                        <a href="/networking" class="btn link">Jobs</a>
+                    </div>
+                    <div>
+                        <a href="/postEmployer" class="btn link">Post Job</a>
+                    </div>
+                </div>
+            </div> -->
+
+            <!-- <div class="col s6 left-align">
+                <div>
+                    <a href="/freelancer" class="btn">freelancer</a>
+                    <div class="col s6 left-align">
+                    </div>
+                </div>
+            </div>
+            
+            <div class="col s4" id="user-input">
+                <div id="user-input">
+                    <p>EventTitle</p>
+
+                    <input type="text" id="title" name="title" form="Form1" />
+                    <br>
+                    <p>EventDetail</p>
+                    <textarea id="note" name="body" form="Form1"></textarea>
+                    <div id="buttons">
+                        <div id="action-button">
+                            <button id="make-new" type="submit" form="Form1">Submit</button>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <div class="col s4 "> </div>
+
+            <button class="col s4" id="clear-all" type="submit" form="Form2">Delete All past
+                eventviews</button>
+            <div class="col s4 "> </div> -->
+        </div>
+
+    </div>
+
+
+
+
+
+
+
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/moment.js/2.17.0/moment.min.js" type="text/javascript">
+    </script>
+    <script src="assets/js/--Tentative" type="text/javascript"></script>
+</body>
+
+</html>

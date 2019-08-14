@@ -1,3 +1,18 @@
+<<<<<<< HEAD
+//add styling for the interface backgroud
+
+backgoun: url(".// background");
+background-color: hr { 
+    display: block;
+    margin-top: 30 px
+    margin-bottom: 20 px
+    margin-left: auto;
+    margin-right: auto;
+    border-style: inset;
+    border-width: 1px;
+  }
+  
+=======
 
 .box{
     padding-left: 10%;
@@ -47,3 +62,4 @@
     transition: max-height 0.2s ease-out;
     background-color: #f1f1f1;
   }
+>>>>>>> c8a94e4c508038ee0aa3e8c145505ca7dc493623
