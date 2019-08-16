@@ -1,29 +1,25 @@
-<<<<<<< HEAD
-//add styling for the interface backgroud
-
-backgoun: url(".// background");
-background-color: hr { 
-    display: block;
-    margin-top: 30 px
-    margin-bottom: 20 px
-    margin-left: auto;
-    margin-right: auto;
-    border-style: inset;
-    border-width: 1px;
-  }
-  
-=======
-
+/* CSS For Employer and Freelancer Pages */
+.nav-wrapper{
+  background: url("https://www.tweaksocialmedia.com/wp-content/uploads/2017/08/Light-wood-background.jpg");
+  color: black;
+}
+body{
+  background-image: url("https://miro.medium.com/max/1838/1*NaUmBti42n0FMMffyjTtBg.jpeg");
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  background-position: fixed;
+  background-size: cover;
+}
 .box{
-    padding-left: 10%;
-    padding-right: 10%;
-    padding-top: 10%;
-    padding-bottom: 10%;
+    padding-left: 25%;
+    padding-right: 25%;
+    padding-top: 5%;
+    padding-bottom: 5%;
     margin-left: 5%;
     margin-right: 5%;
-    margin-top: 10%;
-    margin-bottom: 15%;
-    background: #ccc;
+    margin-top: 5%;
+    margin-bottom: 25%;
+    /* background: #ccc; */
     font-size: 20px;
     position: relative; 
     /* font-family: 'Fjalla One', sans-serif; */
@@ -37,6 +33,9 @@ background-color: hr {
     font-family: 'Pathway Gothic One', sans-serif;
     font-family: 'Concert One', cursive; */
     text-align: center;
+    position: fixed;
+    /* overflow: scroll;
+    overflow-x: hidden; */
 }
 .collapsible {
     background-color: white;
@@ -61,5 +60,84 @@ background-color: hr {
     overflow: hidden;
     transition: max-height 0.2s ease-out;
     background-color: #f1f1f1;
+    /* overflow: scroll; */
+    /* overflow-x: hidden; */
+    width: 100%;
+    height:300px;
+    overflow-y: scroll;
   }
->>>>>>> c8a94e4c508038ee0aa3e8c145505ca7dc493623
+  /* End of CSS For  Employer and Freelancer Pages */
+
+  /* CSS For Home page */
+  .Welcome{
+    padding-left: 5%;
+    padding-right: 5%;
+    padding-top: 2%;
+    padding-bottom: 2%;
+    
+    margin-left: 33.33%;
+    margin-right: 33.33%;
+    background: rgba(61, 60, 60, 0.5);
+    color: white;
+
+    text-align: center;
+    font-size: 40px;
+  }
+  .text{
+    font-family: 'Acme', sans-serif;
+  }
+
+
+  .Mission{
+    padding-left: 10%;
+    padding-right: 10%;
+    padding-top: 5%;
+    padding-bottom: 5%;
+
+    width: 100%;
+
+    background: rgba(61, 60, 60, 0.5);
+    color: white;
+    text-align: center;
+    vertical-align: middle;
+    font-family: 'Acme', sans-serif;
+  }
+
+  /* .Employer{
+    padding-left: 3%;
+    padding-right: 3%;
+    padding-top: 3%;
+    padding-bottom: 3%;
+
+    margin-left: 10%;
+    margin-right: 80%;
+
+    color: white;
+    background: grey;
+  }
+  
+  .Freelancer{
+    padding-left: 3%;
+    padding-right: 3%;
+    padding-top: 3%;
+    padding-bottom: 3%;
+
+    margin-left: 80%;
+    margin-right: 10%;
+
+    color: white;
+    background: grey;
+  }
+
+  .Networking{
+    padding-left: 10%;
+    padding-right: 10%;
+    padding-top: 5%;
+    padding-bottom: 5%;
+
+    width: 100%;
+
+    color: white;
+    text-align: center;
+  } */
+  

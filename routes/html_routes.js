@@ -14,22 +14,29 @@ module.exports = function(app) {
 
   // index route loads view.html
   app.get("/", function(req, res) {
-    res.sendFile(path.join(__dirname, "../public/blog.html"));
+    res.sendFile(path.join(__dirname, "../views/home1.html"));
   });
 
   // cms route loads cms.html
-  app.get("/cms", function(req, res) {
-    res.sendFile(path.join(__dirname, "../public/cms.html"));
+  app.get("/eventview", function(req, res) {
+    res.sendFile(path.join(__dirname, "../views/eventview.html"));
   });
+  app.post 
+  // app.get("/employerview", function(req, res) {
+  //   res.sendFile(path.join(__dirname, "../views/employerview.html"));
+  // });
 
   // blog route loads blog.html
-  app.get("/blog", function(req, res) {
-    res.sendFile(path.join(__dirname, "../public/blog.html"));
-  });
+  // app.get("/postEmployer", function(req, res) {
+  //   res.sendFile(path.join(__dirname, "../views/postEmployer.html"));
+  // });
+  // app.get("/postFreelancer", function(req, res) {
+  //   res.sendFile(path.join(__dirname, "../views/postFreelancer.html"));
+  // });
 
   // authors route loads author-manager.html
-  app.get("/authors", function(req, res) {
-    res.sendFile(path.join(__dirname, "../public/author-manager.html"));
-  });
+  // app.get("/freelancerview", function(req, res) {
+  //   res.sendFile(path.join(__dirname, "../views/freelancerview.html"));
+  // });
 
 };
